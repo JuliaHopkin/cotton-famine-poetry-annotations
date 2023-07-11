@@ -1,5 +1,5 @@
 ---
-layout: item
+layout: aviary
 title: sewing_class_song
 manifest_name: sewing_class_song
 permalink: sewing_class_song
