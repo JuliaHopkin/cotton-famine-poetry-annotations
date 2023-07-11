@@ -1,0 +1,48 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://JuliaHopkin.github.io/cotton-famine-poetry-annotations/sewing_class_song/manifest.json",
+    "type": "Manifest",
+    "label": { "en": [ "sewing_class_song" ] },
+    "homepage": [
+      {
+        "id": "https://archive.org/details/sewin-class-song",
+        "type": "Text",
+        "label": { "en": [ "sewing_class_song" ] },
+        "format": "text/html"
+      }
+    ],
+    "provider": [
+      {
+        "id": "https://cottonfaminepoetry.exeter.ac.uk/",
+        "type": "Agent",
+        "label": { "en": [ "Poetry of the Lancashire Cotton Famine" ] }
+      }
+    ],
+    "items": [
+      {
+        "id": "https://JuliaHopkin.github.io/cotton-famine-poetry-annotations/sewing_class_song/canvas-1/canvas",
+        "type": "Canvas",
+        "duration": 155.0,
+        "items": [
+          {
+            "id": "https://JuliaHopkin.github.io/cotton-famine-poetry-annotations/sewing_class_song/canvas-1/paintings",
+            "type": "AnnotationPage",
+            "items": [
+              {
+                "id": "https://JuliaHopkin.github.io/cotton-famine-poetry-annotations/sewing_class_song/canvas-1/painting",
+                "type": "Annotation",
+                "motivation": "painting",
+                "body": {
+                  "id": "https://archive.org/download/sewin-class-song/Sewing%20Class%20Song.mp3",
+                  "type": "Sound",
+                  "format": "audio/mp3",
+                    "duration": 155.0
+                },
+                "target": "https://JuliaHopkin.github.io/cotton-famine-poetry-annotations/sewing_class_song/canvas-1/canvas"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+} 
