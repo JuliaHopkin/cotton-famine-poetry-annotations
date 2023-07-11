@@ -1,0 +1,9 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://example.com/collection.json",
+    "type": "Collection",
+    "label": { "en": [ "Cotton Famine Poetry Annotation test project" ] },
+    "summary": { "en": [ "Test project annotating poems from the Lancashire Cotton Famine" ] },
+    "items": [
+    ]
+}
