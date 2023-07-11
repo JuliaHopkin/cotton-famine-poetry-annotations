@@ -1,0 +1,38 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://JuliaHopkin.github.io/cotton-famine-poetry-annotations/annotations/sewing_class_song-canvas-1-silence.json",
+  "type": "AnnotationPage",
+  "label": "Silence",
+  "items": [
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "id": "sewing_class_song-canvas-1-silence-annotation-0.json",
+      "type": "Annotation",
+      "motivation": [
+        "supplementing",
+        "commenting"
+      ],
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "Test annotation 2",
+          "format": "text/plain",
+          "purpose": "commenting"
+        },
+        {
+          "type": "TextualBody",
+          "value": "Poetry",
+          "format": "text/plain",
+          "purpose": "tagging"
+        }
+      ],
+      "target": {
+        "source": "https://JuliaHopkin.github.io/cotton-famine-poetry-annotations/sewing_class_song/canvas-1/canvas",
+        "selector": {
+          "type": "RangeSelector",
+          "t": "1.35,1.4"
+        }
+      }
+    }
+  ]
+}

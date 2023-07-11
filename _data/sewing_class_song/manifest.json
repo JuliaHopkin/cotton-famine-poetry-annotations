@@ -23,6 +23,24 @@
         "id": "https://JuliaHopkin.github.io/cotton-famine-poetry-annotations/sewing_class_song/canvas-1/canvas",
         "type": "Canvas",
         "duration": 155.0,
+        "annotations": [
+          
+          {
+            "type": "AnnotationPage",
+            "id": "https://JuliaHopkin.github.io/cotton-famine-poetry-annotations/annotations/sewing_class_song-canvas-1-reading.json",
+            "label": {
+              "none": ["Reading"]
+            }
+          }
+          ,
+          {
+            "type": "AnnotationPage",
+            "id": "https://JuliaHopkin.github.io/cotton-famine-poetry-annotations/annotations/sewing_class_song-canvas-1-silence.json",
+            "label": {
+              "none": ["Silence"]
+            }
+          }
+        ],
         "items": [
           {
             "id": "https://JuliaHopkin.github.io/cotton-famine-poetry-annotations/sewing_class_song/canvas-1/paintings",
